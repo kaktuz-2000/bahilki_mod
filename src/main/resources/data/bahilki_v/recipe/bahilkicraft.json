@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "bahilki_v:bahilkiblock"
+  },
+  "result": {
+    "id": "bahilki_v:bahilkiboots_boots",
+    "count": 1
+  }
+}

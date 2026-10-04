@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bahilki_v",
+  "version": "1.0.0",
+  "name": "bahilki_v1",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.bahilkiv.BahilkiVMod"
+    ],
+    "client": [
+      "net.mcreator.bahilkiv.BahilkiVModClient"
+    ]
+  },
+  "mixins": [
+    "bahilki_v.mixins.json"
+  ],
+  "accessWidener": "META-INF/bahilki_v.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

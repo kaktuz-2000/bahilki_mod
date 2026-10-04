@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bahilki_v:item/bahilki_icons"
+  }
+}

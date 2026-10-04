@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bahilki_v:block/bahilki_block",
+    "up": "bahilki_v:block/bahilki_block",
+    "north": "bahilki_v:block/bahilki_block",
+    "east": "bahilki_v:block/bahilki_block",
+    "south": "bahilki_v:block/bahilki_block",
+    "west": "bahilki_v:block/bahilki_block",
+    "particle": "bahilki_v:block/bahilki_block"
+  }
+}

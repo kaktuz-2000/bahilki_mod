@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "bahilki_v:bahilkiblock"
+  ],
+  "result": {
+    "id": "bahilki_v:bahilkishard",
+    "count": 9
+  }
+}

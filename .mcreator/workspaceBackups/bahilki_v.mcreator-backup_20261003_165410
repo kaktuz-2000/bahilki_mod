@@ -1,0 +1,227 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bahilkishard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkishard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bahilki_v/models/item/bahilkishard.json",
+          "src/main/resources/assets/bahilki_v/items/bahilkishard.json",
+          "src/main/java/net/mcreator/bahilkiv/item/BahilkishardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bahilkiruda",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkiruda",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bahilki_v/loot_table/blocks/bahilkiruda.json",
+          "src/main/resources/assets/bahilki_v/items/bahilkiruda.json",
+          "src/main/java/net/mcreator/bahilkiv/block/BahilkirudaBlock.java",
+          "src/main/resources/assets/bahilki_v/blockstates/bahilkiruda.json",
+          "src/main/resources/data/bahilki_v/worldgen/placed_feature/bahilkiruda.json",
+          "src/main/resources/assets/bahilki_v/models/block/bahilkiruda.json",
+          "src/main/resources/assets/bahilki_v/models/item/bahilkiruda.json",
+          "src/main/resources/data/bahilki_v/worldgen/configured_feature/bahilkiruda.json"
+        ]
+      }
+    },
+    {
+      "name": "Bahilkiblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkiblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bahilkiv/block/BahilkiblockBlock.java",
+          "src/main/resources/assets/bahilki_v/models/item/bahilkiblock.json",
+          "src/main/resources/data/bahilki_v/loot_table/blocks/bahilkiblock.json",
+          "src/main/resources/assets/bahilki_v/models/block/bahilkiblock.json",
+          "src/main/resources/assets/bahilki_v/blockstates/bahilkiblock.json",
+          "src/main/resources/assets/bahilki_v/items/bahilkiblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Bahilkiblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkiblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bahilki_v/recipe/bahilkiblockcraft.json",
+          "src/main/resources/data/bahilki_v/advancement/recipes/bahilkiblockcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Bahilkiboots",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkiboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bahilkiv/client/renderer/item/BahilkibootsArmor.java",
+          "src/main/resources/assets/bahilki_v/items/bahilkiboots_helmet.json",
+          "src/main/resources/assets/bahilki_v/items/bahilkiboots_chestplate.json",
+          "src/main/resources/assets/bahilki_v/items/bahilkiboots_leggings.json",
+          "src/main/resources/assets/bahilki_v/equipment/bahilkiboots.json",
+          "src/main/resources/assets/bahilki_v/items/bahilkiboots_boots.json",
+          "src/main/resources/assets/bahilki_v/models/item/bahilkiboots_boots.json",
+          "src/main/java/net/mcreator/bahilkiv/item/BahilkibootsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bahilkicraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkicraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bahilki_v/recipe/bahilkicraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Bahilkishards",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkishards",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bahilki_v/recipe/bahilkishards.json"
+        ]
+      }
+    },
+    {
+      "name": "Bahilkicoal",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkicoal",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Blockbahilkicoal",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockbahilkicoal",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BahilkishardPriZaviershieniiIspolzovaniia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bahilkishard_pri_zaviershienii_ispolzovaniia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/bahilkiv/procedures/BahilkishardPriZaviershieniiIspolzovaniiaProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Bahilkiblock@CUSTOM:Bahilkiblock",
+      "~Bahilkiruda@CUSTOM:Bahilkiruda"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Bahilkiblock@CUSTOM:Bahilkiblock",
+      "~Bahilkiruda@CUSTOM:Bahilkiruda"
+    ],
+    "ITEMS:bahilki_v:bahilkiboots_repair_items": [
+      "~Bahilkiboots@CUSTOM:Bahilkiblock"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~Bahilkiboots@CUSTOM:Bahilkiboots.boots"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.bahilki_v.bahilkishard": "Кусочек бахилки",
+      "item.bahilki_v.bahilkiruda": "Бахиловая руда",
+      "item.bahilki_v.bahilkiblock": "Прессованая бахилка",
+      "item.bahilki_v.bahilkiboots_boots": "Бахилки"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/bahilkiv/mixin/PiglinAiMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/EquipmentLayerRendererMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/init/BahilkiVModArmorModels.java",
+      "src/main/java/net/mcreator/bahilkiv/init/BahilkiVModItemExtensions.java",
+      "src/main/java/net/mcreator/bahilkiv/init/BahilkiVModBlocks.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/init/BahilkiVModItems.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/init/BahilkiVModFeatures.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/CommandsMixin.java",
+      "src/main/resources/META-INF/bahilki_v.classtweaker",
+      "src/main/java/net/mcreator/bahilkiv/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/BahilkiVMod.java",
+      "src/main/resources/bahilki_v.mixins.json",
+      "src/main/java/net/mcreator/bahilkiv/BahilkiVModClient.java",
+      "src/main/java/net/mcreator/bahilkiv/init/BahilkiVModTabs.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/event/LivingEntityEvents.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/bahilkiv/mixin/BoneMealItemMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/bahilkiv/event/BlockEvents.java",
+      "src/main/java/net/mcreator/bahilkiv/event/MiscEvents.java",
+      "src/main/java/net/mcreator/bahilkiv/event/ItemEvents.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/bahilkiv/mixin/LivingEntityMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bahilki_v",
+    "modName": "bahilki_v1",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.1.2",
+    "modElementsPackage": "net.mcreator.bahilkiv"
+  },
+  "mcreatorVersion": 202600233518
+}

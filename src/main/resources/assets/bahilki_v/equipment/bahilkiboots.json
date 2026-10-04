@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "bahilki_v:bahilki_layer_1"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "bahilki_v:bahilki_layer_2"
+      }
+    ]
+  }
+}
